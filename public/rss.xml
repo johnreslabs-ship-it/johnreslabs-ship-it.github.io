@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Johnres Lab Blog</title>
+    <link>https://johnreslab.github.io/blog</link>
+    <description>Windows and Linux tutorials, dual boot, virtual machines, and networking.</description>
+    <language>en-us</language>
+    <item>
+      <title>How to Fix GRUB After a Windows Update Overwrites It</title>
+      <link>https://johnreslab.github.io/blog/fix-grub-after-windows-update</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Windows updates sometimes overwrite the bootloader on dual-boot machines. Here's the safe way to restore GRUB.</description>
+    </item>
+    <item>
+      <title>VirtualBox vs VMware Workstation: Which Should You Use in 2026?</title>
+      <link>https://johnreslab.github.io/blog/virtualbox-vs-vmware-2026</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>Both are free for personal use now. Here's how they actually compare for tutorial and testing workloads.</description>
+    </item>
+    <item>
+      <title>Subnetting Explained Simply (With a Calculator You Can Use)</title>
+      <link>https://johnreslab.github.io/blog/subnetting-explained-simply</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description>The mental model that made subnetting click, plus a free subnet calculator.</description>
+    </item>
+    <item>
+      <title>The Windows 11 + Linux Dual-Boot Checklist</title>
+      <link>https://johnreslab.github.io/blog/windows-11-dual-boot-checklist</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Most dual-boot horror stories come from skipping prep steps. Here's the checklist to run first.</description>
+    </item>
+  </channel>
+</rss>

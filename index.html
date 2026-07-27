@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Johnres Lab — Windows & Linux Tutorials, Dual Boot, Virtual Machines</title>
+    <meta name="description" content="Johnres Lab: practical, step-by-step Windows and Linux tutorials — dual boot, virtual machines, networking, troubleshooting, and free tools." />
+    <meta name="keywords" content="Windows tutorials, Linux tutorials, dual boot, VirtualBox, VMware, networking, Johnres Lab" />
+    <link rel="canonical" href="https://johnreslab.github.io/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Johnres Lab" />
+    <meta property="og:title" content="Johnres Lab — Windows & Linux Tutorials, Dual Boot, Virtual Machines" />
+    <meta property="og:description" content="Practical, step-by-step Windows and Linux tutorials — dual boot, virtual machines, networking, troubleshooting, and free tools." />
+    <meta property="og:image" content="/assets/banner.png" />
+    <meta property="og:url" content="https://johnreslab.github.io/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Johnres Lab" />
+    <meta name="twitter:description" content="Practical, step-by-step Windows and Linux tutorials — dual boot, virtual machines, networking, troubleshooting, and free tools." />
+    <meta name="twitter:image" content="/assets/banner.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "J Antony Johnres",
+      "alternateName": "Tony Rex",
+      "jobTitle": "Technical Support Engineer",
+      "url": "https://johnreslab.github.io/",
+      "sameAs": [
+        "https://www.youtube.com/@JohnresLab",
+        "https://www.instagram.com/johnreslabs/",
+        "https://www.facebook.com/profile.php?id=61587748195421"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Decodes the redirect from 404.html back into a real path, before React Router mounts -->
+    <script>
+      (function (l) {
+        if (l.search[1] === "p" && l.search.indexOf("=/") === 2) {
+          var decoded = l.search.slice(3).split("&q=");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded[0].replace(/~and~/g, "&") +
+              (decoded[1] ? "?" + decoded[1].replace(/~and~/g, "&") : "") +
+              l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

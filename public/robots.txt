@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://johnreslab.github.io/sitemap.xml
+Sitemap: https://johnreslabs-ship-it.github.io/sitemap.xml

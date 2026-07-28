@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Johnres Lab",
   tagline: "Windows & Linux Tutorials | Dual Boot | Virtual Machines",
-  url: "https://johnreslab.github.io",
+  url: "https://johnreslabs-ship-it.github.io",
   author: "J Antony Johnres (Tony Rex)",
   email: "contact@johnreslab.com",
   youtube: "https://www.youtube.com/@JohnresLab",

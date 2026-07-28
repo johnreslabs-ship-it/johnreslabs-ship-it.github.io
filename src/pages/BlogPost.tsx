@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { marked } from "marked";
 import { where } from "firebase/firestore";
 import SEO from "../components/SEO";
 import { Section, Badge } from "../components/Common";
@@ -45,10 +46,8 @@ export default function BlogPost() {
           <h1 className="text-2xl sm:text-3xl font-bold font-mono text-ink glow-text">{post.title}</h1>
         </div>
 
-        <article className="prose-invert max-w-none text-ink-muted leading-relaxed whitespace-pre-line">
-          {post.content}
-        </article>
-
+             <article className="markdown-body max-w-none text-ink-muted leading-relaxed" dangerouslySetInnerHTML={{ __html: marked.parse(post.content, { async: false }) as string }} />
+       
         <div className="flex flex-wrap gap-2 mt-10">
           {post.tags.map((t) => (
             <Badge key={t}>#{t}</Badge>

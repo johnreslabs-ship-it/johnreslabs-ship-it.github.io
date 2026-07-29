@@ -51,7 +51,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-       <CookieConsent /> (6 spaces of indentation, matching the </Routes> 
+      <CookieConsent />
     </Layout>
   );
 }

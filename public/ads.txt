@@ -1,0 +1,3 @@
+# Once approved for Google AdSense, replace the line below with the real one
+# shown in AdSense under Sites → your site → "View ads.txt snippet".
+# It looks like: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

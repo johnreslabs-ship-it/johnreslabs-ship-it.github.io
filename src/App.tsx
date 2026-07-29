@@ -1,6 +1,7 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Layout from "./components/Layout";
+import CookieConsent from "./components/CookieConsent";
 import { usePageViewTracking } from "./lib/usePageViewTracking";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -50,6 +51,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <CookieConsent /> So it now reads: </Routes> <CookieConsent />
     </Layout>
   );
 }
